@@ -1,4 +1,11 @@
 # ELK_nodejs
+try this:
+https://learnk8s.io/deploying-nodejs-kubernetes
+
+ k port-forward svc/prometheus-main 9090:9090 -n m
+onitoring
+ k port-forward svc/grafana 3000:3000 -n monitoring
+http://0.0.0.0:9090/graph
 
 the work plan is:
 

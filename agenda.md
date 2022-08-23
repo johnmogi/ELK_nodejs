@@ -6,7 +6,7 @@ https://theekshanawj.medium.com/kubernetes-deploying-a-nodejs-app-in-minikube-lo
 k apply -f app-deployment.yaml
 
 create a new namespace and set it as default
-k create namespace staging
+k create namespace live
 kubectl config set-context --current --namespace=live
 eval $(minikube docker-env)
 2. 
